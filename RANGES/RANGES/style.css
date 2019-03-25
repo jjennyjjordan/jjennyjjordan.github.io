@@ -1,0 +1,525 @@
+body {
+	background-color: black; 
+}
+
+
+
+div {
+	position: absolute;
+	background-color: white;
+}
+
+.r {
+	top: 165px;
+	left: 75px;
+}
+
+.r1 {
+	width: 20px;
+	height: 390px;
+}
+
+.r2 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: -100px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.r3 {
+	width: 20px;
+	height: 270px;
+	left: 170px;
+	top: 120px;
+}
+
+.r4 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: 30px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.r5 {
+	width: 115px;
+	height: 275px;
+	left: 20px;
+	background-color: black;
+}
+
+.r6 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: -80px;
+	left: 20px;
+	background-color: black;
+}
+
+.r7 {
+	width: 75px;
+	height: 250px;
+	left: 95px;
+	top: 120px;
+	background-color: black;
+
+}
+
+.r8 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 380px;
+	background-color: white;
+}
+
+.r9 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 380px;
+	left: 170px;
+	background-color: white;
+	}
+
+.a {
+	top: 165px;
+	left: 310px;
+}
+
+.a1 {
+	width: 20px;
+	height: 390px;
+}
+
+.a2 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: -100px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.a3 {
+	width: 20px;
+	height: 390px;
+	left: 170px;
+}
+
+.a4 {
+	width: 150px;
+	height: 400px;
+	left: 20px;
+	background-color: black;
+}
+
+.a5 {
+	width: 50px;
+	height: 20px;
+	left: 140px;
+	top: 55px;
+}
+
+.a6 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 380px;
+	background-color: white;
+}
+
+.a7 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 380px;
+	left: 170px;
+	background-color: white;
+}
+
+.a8 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	left: 130px;
+	top: 55px;
+	background-color: white;
+}
+
+.n {
+	top: 165px;
+	left: 545px;
+}
+
+.n1 {
+	width: 20px;
+	height: 430px;
+	top: -40px;
+}	
+
+.n2 {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	top: -100px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.n3 {
+	width: 20px;
+	height: 395px;
+	left: 95px;
+	top: -45px;
+}	
+
+.n4 {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	top: 290px;
+	left: 95px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.n5 {
+	width: 20px;
+	height: 435px;
+	left: 190px;
+	top: -85px;
+	background-color: white;
+}
+
+.n6 {
+	width: 75px;
+	height: 75px;
+	top: -45px;
+	left: 20px;
+	background-color: black;
+}
+
+.n7 {
+	width: 75px;
+	height: 75px;
+	top: 270px;
+	left: 115px;
+	background-color: black;
+}
+
+.n8 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 380px;
+	background-color: white;
+}
+
+.n9 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: -95px;
+	left: 190px;
+	background-color: white;
+	}
+
+.g {
+	top: 165px;
+	left: 800px;
+}
+
+.g1 {
+	width: 20px;
+	height: 315px;
+}
+
+.g2 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: -100px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.g3 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: 215px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.g4 {
+	width: 20px;
+	height: 155px;
+	top: 160px;
+	left: 170px;
+}
+
+.g5 {
+	width: 175px;
+	height: 105px;
+	left: 20px;
+	top: -10px;
+	background-color: black;
+}
+
+.g6 {
+	width: 150px;
+	height: 100px;
+	top: 210px;
+	left: 20px;
+	background-color: black;
+}
+
+.g7 {
+	width: 50px;
+	height: 20px;
+	left: 140px;
+	top: 145px;
+	border-radius: 0px 15px 0px 0px; 
+}
+
+.g8 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	left: 170px;
+	top: -20px;
+	background-color: white;
+}
+
+.g9 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 145px;
+	left: 130px;
+	background-color: white;
+}
+
+.e {
+	top: 165px;
+	left: 1035px;
+}
+
+.e1 {
+	width: 20px;
+	height: 315px;
+}
+
+.e2 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: -100px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.e3 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: 215px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.e4 {
+	width: 175px;
+	height: 105px;
+	left: 20px;
+	top: -10px;
+	background-color: black;
+}
+
+.e5 {
+	width: 175px;
+	height: 100px;
+	top: 210px;
+	left: 20px;
+	background-color: black;
+}
+
+.e6 {
+	width: 50px;
+	height: 20px;
+	top: 145px;
+}
+
+.e7 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	left: 170px;
+	top: -20px;
+	background-color: white;
+}
+
+.e8 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	left: 170px;
+	top: 300px;
+	background-color: white;
+}
+
+.e9 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 145px;
+	left: 40px;
+	background-color: white;
+}
+
+.s {
+	top: 165px;
+	left: 1270px;
+}
+
+.s1 {
+	width: 20px;
+	height: 105px;
+}
+
+.s2 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: -100px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.s3 {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	top: 50px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.s4 {
+	width: 75px;
+	height: 150px;
+	left: 20px;
+	top: -5px;
+	background-color: black;
+	border-radius: 0px 0px 80px 80px;
+
+}
+
+.s5 {
+	width: 140px;
+	height: 155px;
+	left: 57.5px;
+	top: -10px;
+	background-color: black;
+}
+
+.s6 {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	top: 215px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.s7 {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	top: 145px;
+	left: 75px;
+	background-color: black;
+	border: 20px solid white;
+}
+
+.s8 {
+	width: 20px;
+	height: 110px;
+	left: 170px;
+	top: 195px;
+}
+
+.s9 {
+	width: 75px;
+	height: 150px;
+	left: 95px;
+	top: 165px;
+	background-color: black;
+	border-radius: 80px 80px 0px 0px;
+
+}
+
+.s10 {
+	width: 140px;
+	height: 145px;
+	left: -5px;
+	top: 165px;
+	background-color: black;
+}
+
+.s11 {
+	width: 80px;
+	height: 20px;
+	left: 55px;
+	top: 145px;
+	background-color: white;
+}
+
+.s12 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	left: 170px;
+	top: -20px;
+	background-color: white;
+}
+
+.s13 {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	top: 300px;
+	background-color: white;
+}
+
+.wrapper {
+	transform: scale(0.85);
+	left: 0px;
+	top: 0px;
+
+}
+
+
+p {
+  width: 560px;
+  color: white;
+  font-family: Futura;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: regular; 
+  text-align: left;
+
+  position: relative;
+  top: 520px;
+  left: 55px;
+}
+
+
+
+
