@@ -1,0 +1,487 @@
+.bg {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-image: url("spinfinal2.gif");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.5;
+}
+
+.purple {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: rgba(50, 0, 255, 0.5);
+}
+
+.wrapper {
+	position: absolute;
+	width: 1024px;
+	height: 700px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*width: 1024px;
+	height: 700px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;*/
+	margin: auto;
+}
+
+.h1 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 175px;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 110px;
+	font-weight: regular;
+	color: white;
+}
+
+.h2 {
+	position: absolute;
+    left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 280px;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 3.8px;
+}	
+
+.h3 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 330px;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.h4 {
+	position: absolute;
+    left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 360px;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 24px;
+	font-weight: regular;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.Bar {
+	position: absolute;
+	width: 100vw;
+	height: 150px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.75;
+}
+
+.info {
+	position: absolute;
+	width: 1024px;
+	height: 150px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*width: 1024px;
+	height: 700px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;*/
+	margin: auto;
+
+}
+
+.location {
+	position: absolute;
+	top: 25px;
+	left: 30px;
+	bottom: 0;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 23px;
+	font-weight: regular;
+	color: white;
+	letter-spacing: 2px
+}
+
+.date {
+	position: absolute;
+	top: 25px;
+	left: 273px;
+	bottom: 0;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 23px;
+	font-weight: regular;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.contact {
+	position: absolute;
+	top: 25px;
+	left: 557px;
+	bottom: 0;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 23px;
+	font-weight: regular;
+	color: white;
+	letter-spacing: 2px;
+}
+
+.facebook {
+	position: absolute;
+	top: 85px;
+	left: 556px;
+	bottom: 0;
+	background-image: url('facebook.png');
+	width: 50px; 
+	height: 50px;
+	opacity: .65;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.facebook:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('facebook.png');
+	opacity: 1;
+    display: block;
+}
+
+.twitter {
+	position: absolute;
+	top: 85px;
+	left: 626px;
+	bottom: 0;
+	background-image: url('twitter.png');
+	width: 50px; 
+	height: 50px;
+	opacity: .65;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.twitter:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('twitter.png');
+	opacity: 1;
+    display: block;
+}
+
+.instagram {
+    position: absolute;
+	top: 85px;
+	left: 701px;
+	bottom: 0;
+	background-image: url('insta.png');
+	width: 50px; 
+	height: 50px;
+	opacity: .65;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.instagram:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('insta.png');
+	opacity: 1;
+    display: block;
+}
+
+.buy {
+	position: absolute;
+	top: 25px;
+	left: 785px;
+	bottom: 0;
+	background-image: url('buy.png');
+	width: 215px; 
+	height: 107.5px;
+	opacity: .65;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.buy:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('buy.png');
+	opacity: 1;
+    display: block;
+}
+
+
+@media (max-width: 375px) {
+
+.wrapper {
+	position: absolute;
+	width: 375px;
+	height: 667px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*width: 1024px;
+	height: 700px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;*/
+	margin: auto;
+}
+
+.h1 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 125px;
+	font-family: 'Bungee Inline', cursive;
+	font-size: 80px;
+	font-weight: regular;
+	color: white;
+}
+
+.h2 {
+	position: absolute;
+    left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 203px;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 25.3px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 2px;
+}	
+
+.h3 {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 242px;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.h4 {
+	position: absolute;
+    left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 266px;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 19px;
+	font-weight: regular;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.Bar {
+	position: absolute;
+	width: 100vw;
+	height: 245px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	opacity: 0.75;
+}
+
+.info {
+	position: absolute;
+	width: 375px;
+	height: 245px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*width: 1024px;
+	height: 700px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;*/
+	margin: auto;
+
+}
+
+.location {
+	position: absolute;
+	top: 25px;
+	left: 20px;
+	bottom: 0;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 18px;
+	font-weight: regular;
+	color: white;
+	letter-spacing: 1px
+}
+
+.date {
+	position: absolute;
+	top: 25px;
+	left: 180px;
+	bottom: 0;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 18px;
+	font-weight: regular;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.contact {
+	position: absolute;
+	top: 125px;
+	left: 20px;
+	bottom: 0;
+	font-family: 'Cabin Condensed', sans-serif;
+	font-size: 18px;
+	font-weight: regular;
+	color: white;
+	letter-spacing: 1px;
+}
+
+
+.facebook {
+	position: absolute;
+	top: 180px;
+	left: 20px;
+	bottom: 0;
+	background-image: url('facebook.png');
+	width: 40px; 
+	height: 40px;
+	opacity: .65;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.facebook:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('facebook.png');
+	opacity: 1;
+    display: block;
+}
+
+.twitter {
+	position: absolute;
+	top: 180px;
+	left: 73px;
+	bottom: 0;
+	background-image: url('twitter.png');
+	width: 40px; 
+	height: 40px;
+	opacity: .65;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.twitter:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('twitter.png');
+	opacity: 1;
+    display: block;
+}
+
+.instagram {
+    position: absolute;
+	top: 180px;
+	left: 126px;
+	bottom: 0;
+	background-image: url('insta.png');
+	width: 40px; 
+	height: 40px;
+	opacity: .65;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.instagram:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('insta.png');
+	opacity: 1;
+    display: block;
+}
+
+.buy {
+	position: absolute;
+	top: 130px;
+	left: 196px;
+	bottom: 0;
+	background-image: url('tickets.png');
+	width: 145px; 
+	height: 72.5px;
+	opacity: .65;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.buy:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('tickets.png');
+	opacity: 1;
+    display: block;
+}
+
+}
