@@ -141,7 +141,7 @@
 .date {
 	position: absolute;
 	top: 25px;
-	left: 257px;
+	left: 273px;
 	bottom: 0;
 	font-family: 'Cabin Condensed', sans-serif;
 	font-size: 23px;
@@ -153,7 +153,7 @@
 .contact {
 	position: absolute;
 	top: 25px;
-	left: 530px;
+	left: 557px;
 	bottom: 0;
 	font-family: 'Cabin Condensed', sans-serif;
 	font-size: 23px;
@@ -165,7 +165,7 @@
 .facebook {
 	position: absolute;
 	top: 85px;
-	left: 530px;
+	left: 556px;
 	bottom: 0;
 	background-image: url('facebook.png');
 	width: 50px; 
@@ -187,7 +187,7 @@
 .twitter {
 	position: absolute;
 	top: 85px;
-	left: 605px;
+	left: 626px;
 	bottom: 0;
 	background-image: url('twitter.png');
 	width: 50px; 
@@ -209,7 +209,7 @@
 .instagram {
     position: absolute;
 	top: 85px;
-	left: 680px;
+	left: 701px;
 	bottom: 0;
 	background-image: url('insta.png');
 	width: 50px; 
@@ -464,8 +464,8 @@
 
 .buy {
 	position: absolute;
-	top: 128px;
-	left: 200px;
+	top: 130px;
+	left: 196px;
 	bottom: 0;
 	background-image: url('tickets.png');
 	width: 145px; 
