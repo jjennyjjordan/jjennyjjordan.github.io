@@ -1,0 +1,230 @@
+.bg {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.gif {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 20px;
+	left: 0;
+	background-image: url("FLR.gif");
+	background-position: center;
+	background-size: 625px, 625px;
+	background-repeat: no-repeat;
+}
+
+.name {
+	position: absolute;
+	width: 1024px;
+	height: 700px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.Brooklyn {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 190px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 120px;
+	font-weight: 700;
+	color: white;
+}
+
+.Botanic {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 303px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 120px;
+	font-weight: 700;
+	color: white;
+}
+
+.Garden {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 415px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 120px;
+	font-weight: 700;
+	color: white;
+}
+
+.bar {
+	position: absolute;
+	width: 100vw;
+	height: 40px;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: white;
+	opacity: 0.95;
+}
+
+.wrapper {
+	position: absolute;
+	width: 1024px;
+	height: 40px;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*width: 1024px;
+	height: 700px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;*/
+	margin: auto;
+}
+
+.bbg {
+	position: absolute;
+	top: -5px;
+	left: 60px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	font-weight: 700;
+	color: black;
+	letter-spacing: 2px
+}
+
+.about {
+	position: absolute;
+	top: 11px;
+	left: 160px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: black;
+}
+
+.gardens {
+	position: absolute;
+	top: 11px;
+	left: 280px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: black;
+}
+
+.visit {
+	position: absolute;
+	top: 11px;
+	left: 425px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: black;
+}
+
+.resources {
+	position: absolute;
+	top: 11px;
+	left: 525px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: black;
+}
+
+.donation {
+	position: absolute;
+	top: 11px;
+	left: 675px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: black;
+}
+
+.fb {
+	position: absolute;
+	top: 2.5px;
+	left: 825px;
+	background-image: url('fb.png');
+	width: 35px; 
+	height: 35px;
+	opacity: .55;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.fb:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('fb.png');
+	opacity: .35;
+    display: block;
+}
+
+.twitter {
+	position: absolute;
+	top: 2.5px;
+	left: 877px;
+	background-image: url('twitter.png');
+	width: 35px; 
+	height: 35px;
+	opacity: .55;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.twitter:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('twitter.png');
+	opacity: .35;
+    display: block;
+}
+
+.ig {
+    position: absolute;
+	top: 2.5px;
+	left: 929px;
+	background-image: url('ig.png');
+	width: 35px; 
+	height: 35px;
+	opacity: .55;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.ig:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('ig.png');
+	opacity: .35;
+    display: block;
+}
