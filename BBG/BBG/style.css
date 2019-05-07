@@ -1,0 +1,1478 @@
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+.bg {
+	position: absolute;
+	width: 100vw;
+	height: 110vh;
+	top: 0;
+	left: 0;
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.gif {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 20px;
+	left: 0;
+	background-image: url("FLR.gif");
+	background-position: center;
+	background-size: 625px, 625px;
+	background-repeat: no-repeat;
+}
+
+.name {
+	position: absolute;
+	width: 1024px;
+	height: 700px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.Brooklyn {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 190px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 120px;
+	font-weight: 700;
+	color: white;
+}
+
+.Botanic {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 303px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 120px;
+	font-weight: 700;
+	color: white;
+}
+
+.Garden {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+	top: 415px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 120px;
+	font-weight: 700;
+	color: white;
+}
+
+.bar {
+	position: absolute;
+	width: 100vw;
+	height: 40px;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: white;
+	opacity: 0.95;
+}
+
+.wrapper {
+	position: absolute;
+	width: 1024px;
+	height: 40px;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*width: 1024px;
+	height: 700px;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;*/
+	margin: auto;
+}
+
+.bbg {
+	position: absolute;
+	top: -5px;
+	left: 60px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 40px;
+	font-weight: 700;
+	color: black;
+	letter-spacing: 2px
+}
+
+.about {
+	position: absolute;
+	top: 11px;
+	left: 160px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: black;
+}
+
+.about:hover {
+	position: relative;
+	cursor: pointer 
+	opacity: .65;
+    display: block;
+}
+
+.gardens {
+	position: absolute;
+	top: 11px;
+	left: 280px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: black;
+}
+
+.visit {
+	position: absolute;
+	top: 11px;
+	left: 425px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: black;
+}
+
+.resources {
+	position: absolute;
+	top: 11px;
+	left: 525px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: black;
+}
+
+.donation {
+	position: absolute;
+	top: 11px;
+	left: 675px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	color: black;
+}
+
+.fb {
+	position: absolute;
+	top: 2.5px;
+	left: 825px;
+	background-image: url('fb.png');
+	width: 35px; 
+	height: 35px;
+	opacity: .55;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.fb:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('fb.png');
+	opacity: .35;
+    display: block;
+}
+
+.twitter {
+	position: absolute;
+	top: 2.5px;
+	left: 877px;
+	background-image: url('twitter.png');
+	width: 35px; 
+	height: 35px;
+	opacity: .55;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.twitter:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('twitter.png');
+	opacity: .35;
+    display: block;
+}
+
+.ig {
+    position: absolute;
+	top: 2.5px;
+	left: 929px;
+	background-image: url('ig.png');
+	width: 35px; 
+	height: 35px;
+	opacity: .55;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out; 
+}
+
+.ig:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('ig.png');
+	opacity: .35;
+    display: block;
+}
+
+
+
+
+
+.abt {
+	position: absolute;
+	width: 100vw;
+	height: 250px;
+	top: 0;
+	left: 0;
+	background-image: url("abtpic.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.ABOUT {
+	position: absolute;
+	left: 0;
+	right: 0;
+    top: 45px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 150px;
+	font-weight: 700;
+	color: white;
+}
+
+.info {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.mission {
+	position: absolute;
+	left: 475px;
+    top: 290px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.statement {
+	position: absolute;
+	top: 330px;
+	left: 475px;
+	width: 500px;
+	padding-right: 100px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+.kidpic {
+	position: absolute;
+	width: 350px;
+	height: 350px;
+	top: 290px;
+	left: 50px;
+	background-image: url("kidpic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+
+
+
+.vis {
+	position: absolute;
+	width: 100vw;
+	height: 250px;
+	top: 0;
+	left: 0;
+	background-image: url("visitpic.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.VISIT {
+	position: absolute;
+	left: 0;
+	right: 0;
+    top: 45px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 150px;
+	font-weight: 700;
+	color: white;
+}
+
+.info2 {
+	position: absolute;
+	width: 100vw;
+	height: 105vh;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hours {
+	position: absolute;
+	left: 50px;
+    top: 290px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.times {
+	position: absolute;
+	top: 330px;
+	left: 50px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	width: 300px;
+}
+
+.times2 {
+	position: absolute;
+	top: 330px;
+	left: 350px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	width: 300px;
+}
+
+.location {
+	position: absolute;
+	left: 350px;
+    top: 590px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.place {
+	position: absolute;
+	top: 630px;
+	left: 350px;
+	/*padding-right: px;*/
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	width: 200px;
+}
+
+.map {
+	position: absolute;
+	width: 35vw;
+	height: 55vh;
+	top: 300px;
+	left: 620px;
+	background-image: url("map.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.prices {
+	position: absolute;
+	left: 50px;
+    top: 590px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.cost {
+	position: absolute;
+	top: 630px;
+	left: 50px;
+	/*padding-right: px;*/
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	width: 200px;
+}
+
+.cost2 {
+	position: absolute;
+	top: 630px;
+	left: 185px;
+	/*padding-right: px;*/
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	width: 200px;
+}
+
+
+
+
+.res {
+	position: absolute;
+	width: 100vw;
+	height: 250px;
+	top: 0;
+	left: 0;
+	background-image: url("respic.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.RESOURCES {
+	position: absolute;
+	left: 0;
+	right: 0;
+    top: 45px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 150px;
+	font-weight: 700;
+	color: white;
+}
+
+.info3 {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.mailing {
+	position: absolute;
+	left: 45px;
+    top: 290px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.adress {
+	position: absolute;
+	top: 330px;
+	left: 50px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+.call {
+	position: absolute;
+	left: 45px;
+    top: 430px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.number {
+	position: absolute;
+	top: 470px;
+	left: 50px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+.email {
+	position: absolute;
+	left: 45px;
+    top: 530px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.eadress {
+	position: absolute;
+	top: 570px;
+	left: 50px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+.other {
+	position: absolute;
+	left: 345px;
+    top: 290px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+	width: 300px;
+}
+
+.otherinfo {
+	position: absolute;
+	top: 330px;
+	left: 350px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+.otherinfo2 {
+	position: absolute;
+	top: 330px;
+	left: 550px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+.otherinfo3 {
+	position: absolute;
+	top: 330px;
+	left: 750px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+.don {
+	position: absolute;
+	width: 100vw;
+	height: 250px;
+	top: 0;
+	left: 0;
+	background-image: url("donpic.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.DONATE {
+	position: absolute;
+	left: 0;
+	right: 0;
+    top: 45px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 150px;
+	font-weight: 700;
+	color: white;
+}
+
+.info4 {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Help {
+	position: absolute;
+	left: 524px;
+    top: 290px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+	width: 300px;
+}
+
+.support {
+	position: absolute;
+	top: 330px;
+	left: 550px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	width: 450px;
+}
+
+.donatepic {
+	position: absolute;
+	top: 395px;
+	left: 570px;
+	background-image: url('donatepic.png');
+	width: 210px; 
+	height: 105px;
+	opacity: .75;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-size 0.15s ease-in-out;
+}
+
+.donatepic:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('donatepic.png');
+	opacity: .55;
+    display: block;
+}
+
+.charity {
+	position: absolute;
+	left: 50px;
+    top: 290px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.charitytext {
+	position: absolute;
+	top: 330px;
+	left: 50px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	width: 450px;
+}
+
+
+
+/*
+background-position: center;
+background-repeat: no-repeat;
+*/
+
+
+
+.gar {
+	position: absolute;
+	width: 100vw;
+	height: 250px;
+	top: 0;
+	left: 0;
+	background-image: url("garden.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.GARDENS {
+	position: absolute;
+	left: 0;
+	right: 0;
+    top: 45px;
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	font-size: 150px;
+	font-weight: 700;
+	color: white;
+}
+
+.seasons {
+	position: absolute;
+	width: 1024px;
+	height: 150px;
+	top: 250px;
+	left: 0;
+	right: 0;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.Spring {
+	position: absolute;
+	top: 70px;
+	left: 100px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+	opacity: .80;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Summer {
+	position: absolute;
+	top: 70px;
+	left: 335px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+	opacity: .80;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Fall {
+	position: absolute;
+	top: 70px;
+	left: 615px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+	opacity: .80;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Winter {
+	position: absolute;
+	top: 70px;
+	left: 830px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+	opacity: .80;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.seasonpics{
+	position: absolute;
+	width: 1024px;
+	height: 300px;
+	top: 400px;
+	left: 0;
+	right: 0;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+}
+
+.Springpic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 20px;
+	left: 45px;
+	background-image: url("springpic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: .75;
+	transition: background-size 0.15s ease-in-out;
+}
+
+.Springpic:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('springpic.png');
+	opacity: .55;
+    display: block;
+}
+
+.Summerpic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 20px;
+	left: 290px;
+	background-image: url("summerpic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: .75;
+	transition: background-size 0.15s ease-in-out;
+}
+
+.Summerpic:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('summerpic.png');
+	opacity: .55;
+    display: block;
+}
+
+.Fallpic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 20px;
+	left: 545px;
+	background-image: url("fallpic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: .75;
+	transition: background-size 0.15s ease-in-out;
+}
+
+.Fallpic:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('fallpic.png');
+	opacity: .55;
+    display: block;
+}
+
+.Winterpic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 20px;
+	left: 780px;
+	background-image: url("winterpic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: .75;
+	transition: background-size 0.15s ease-in-out;
+}
+
+.Winterpic:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('winterpic.png');
+	opacity: .55;
+    display: block;
+}
+
+
+
+
+
+
+.springfav {
+	position: absolute;
+	width: 100vw;
+	height: 130vh;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.arrow {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 42px;
+	left: 60px;
+	background-image: url("arrow.png");
+	opacity: .65;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.arrow:hover {
+	position: relative;
+	cursor: pointer 
+	background-image: url('arrow.png');
+	opacity: .45;
+    display: block;
+}
+
+.Springfavorites {
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.magnoliapic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 120px;
+	left: 70px;
+	background-image: url("magnoliapic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.magnolianame {
+	position: absolute;
+	top: 120px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Magnoliainfo {
+	position: absolute;
+	top: 160px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.cherrypic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 400px;
+	left: 70px;
+	background-image: url("cherrypic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.cherryname {
+	position: absolute;
+	top: 400px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Cherryinfo {
+	position: absolute;
+	top: 440px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.irispic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 680px;
+	left: 70px;
+	background-image: url("irispic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.irisname {
+	position: absolute;
+	top: 680px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Irisinfo {
+	position: absolute;
+	top: 720px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+
+
+
+
+
+.summerfav {
+	position: absolute;
+	width: 100vw;
+	height: 130vh;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Summerfavorites {
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.Hibiscuspic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 120px;
+	left: 70px;
+	background-image: url("hibiscuspic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.Hibiscusname {
+	position: absolute;
+	top: 120px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Hibiscusinfo {
+	position: absolute;
+	top: 160px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Artichokepic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 400px;
+	left: 70px;
+	background-image: url("artichokepic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.Artichokename {
+	position: absolute;
+	top: 400px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Artichokeinfo {
+	position: absolute;
+	top: 440px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.rosepic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 680px;
+	left: 70px;
+	background-image: url("rosepic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.rosename {
+	position: absolute;
+	top: 680px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.roseinfo {
+	position: absolute;
+	top: 720px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+
+
+
+
+
+
+.fallfav {
+	position: absolute;
+	width: 100vw;
+	height: 130vh;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Fallfavorites {
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.rhuspic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 400px;
+	left: 70px;
+	background-image: url("rhuspic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.rhusname {
+	position: absolute;
+	top: 400px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Rhusinfo {
+	position: absolute;
+	top: 440px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 575px;
+}
+
+.sedumpic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 120px;
+	left: 70px;
+	background-image: url("sedumpic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.sedumname {
+	position: absolute;
+	top: 120px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Seduminfo {
+	position: absolute;
+	top: 160px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.sunrosepic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 680px;
+	left: 70px;
+	background-image: url("sunrose.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.sunrosename {
+	position: absolute;
+	top: 680px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Sunroseinfo {
+	position: absolute;
+	top: 720px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+
+
+
+
+
+.winterfav {
+	position: absolute;
+	width: 100vw;
+	height: 130vh;
+	top: 0;
+	left: 0;
+	background-color: transparent;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Winterfavorites {
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.witchpic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 400px;
+	left: 70px;
+	background-image: url("witchpic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.witchname {
+	position: absolute;
+	top: 400px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Witchinfo {
+	position: absolute;
+	top: 440px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.pinepic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 120px;
+	left: 70px;
+	background-image: url("pinepic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.pinename {
+	position: absolute;
+	top: 120px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Pineinfo {
+	position: absolute;
+	top: 160px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.fernpic {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	top: 680px;
+	left: 70px;
+	background-image: url("fernpic.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.fernname {
+	position: absolute;
+	top: 680px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 700;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
+.Ferninfo {
+	position: absolute;
+	top: 720px;
+	left: 310px;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+	padding-right: 120px;
+	width: 600px;
+}
+
