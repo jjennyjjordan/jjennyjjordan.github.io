@@ -1,0 +1,87 @@
+@media (max-width: 375px) {
+
+.paper {
+	position: absolute;
+	width: 100vw;
+	height: 120vh;
+	top: 0;
+	left: 0;
+	background-image: url(paper.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.wanted {
+	position: absolute;
+	width: 100vw;
+	height: 110vh;
+	top: 20px;
+	left: 0;
+	background-image: url(Wanted.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.landpicture {
+	position: absolute;
+	width: 330px; 
+	height: 165px;
+	top: 225px;
+	left: 22px;
+	background-image: url("horsepic.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.billythekidpicture {
+	position: absolute;
+	width: 155px; 
+	height: 155px;
+	top: 410px;
+	left: 22px;
+	background-image: url("billythekidpic.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.butchcassidypicture {
+	position: absolute;
+	width: 155px; 
+	height: 155px;
+	top: 410px;
+	left: 197px;
+	background-image: url("butchcassidypic.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.sundancekidpicture {
+	position: absolute;
+	width: 155px; 
+	height: 155px;
+	top: 585px;
+	left: 22px;
+	background-image: url("sundancekidpic.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.jessejamespicture {
+	position: absolute;
+	width: 155px; 
+	height: 155px;
+	top: 585px;
+	left: 197px;
+	background-image: url("jessejamespic.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+}
