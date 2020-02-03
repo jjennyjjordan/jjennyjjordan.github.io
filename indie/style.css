@@ -84,4 +84,495 @@
 	background-size: contain;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article1 {
+	position: absolute;
+	left: 20px;
+    top: 10px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Rye', cursive;
+	font-size: 40px;
+	font-weight: 400;
+	color: black;
+}
+
+.howwildbodytext1 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 115px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wildtitle1 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 1360px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.westland {
+	position: absolute;
+	width: 400px; 
+	height: 200px;
+	top: 1420px;
+	right: 0px;
+	background-image: url("land.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.howwildbodytext2 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 1615px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+.wildtitle2 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 2440px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.outlawspic {
+	position: absolute;
+	width: 300px; 
+	height: 600px;
+	top: 2400px;
+	left: 25px;
+	background-image: url("outlaws.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.howwildbodytext3 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 2915px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.wildtitle3 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 5060px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.howwildbodytext4 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 5090px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.wildtitle4 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 6350px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.goldpic {
+	position: absolute;
+	width: 300px; 
+	height: 600px;
+	top: 6210px;
+	left: 25px;
+	background-image: url("gold.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.howwildbodytext5 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 6605px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+.wildtitle5 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 7180px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.trainpic {
+	position: absolute;
+	width: 400px; 
+	height: 200px;
+	top: 7245px;
+	right: 20px;
+	background-image: url("train.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.howwildbodytext6 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 7445px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wildtitle6 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 8540px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.howwildbodytext7 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 8570px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wildtitle7 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 9530px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.drawpic {
+	position: absolute;
+	width: 450px; 
+	height: 225px;
+	top: 9590px;
+	left: -45px;
+	background-image: url("draw.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.howwildbodytext8 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 9810px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wildtitle8 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 10635px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.howwildbodytext9 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 10660px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+.wildtitle9 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 11715px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.howwildbodytext10 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 11740px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wildtitle10 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 12915px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Sancreek', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: black;
+}
+
+.okpic {
+	position: absolute;
+	width: 380px; 
+	height: 190px;
+	top: 12975px;
+	left: -15px;
+	background-image: url("OK.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.howwildbodytext11 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 13155px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.wildtitle1 {
+
+	}*/
+
 }
