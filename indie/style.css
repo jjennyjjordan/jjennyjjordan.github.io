@@ -3,7 +3,7 @@
 .paper {
 	position: absolute;
 	width: 100vw;
-	height: 120vh;
+	height: 100vh;
 	top: 0;
 	left: 0;
 	background-image: url(paper.png);
@@ -14,11 +14,12 @@
 
 .wanted {
 	position: absolute;
-	width: 100vw;
-	height: 110vh;
+	width: 95vw;
+	height: 21.1vh;
 	top: 20px;
-	left: 0;
-	background-image: url(Wanted.png);
+	padding-left: 5px;
+	padding-right: 5px;
+	background-image: url(WantedNew.png);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -28,7 +29,7 @@
 	position: absolute;
 	width: 330px; 
 	height: 165px;
-	top: 225px;
+	top: 205px;
 	left: 22px;
 	background-image: url("horsepic.png");
 	background-position: center;
@@ -40,7 +41,7 @@
 	position: absolute;
 	width: 155px; 
 	height: 155px;
-	top: 410px;
+	top: 385px;
 	left: 22px;
 	background-image: url("billythekidpic.png");
 	background-position: center;
@@ -52,7 +53,7 @@
 	position: absolute;
 	width: 155px; 
 	height: 155px;
-	top: 410px;
+	top: 385px;
 	left: 197px;
 	background-image: url("butchcassidypic.png");
 	background-position: center;
@@ -64,7 +65,7 @@
 	position: absolute;
 	width: 155px; 
 	height: 155px;
-	top: 585px;
+	top: 565px;
 	left: 22px;
 	background-image: url("sundancekidpic.png");
 	background-position: center;
@@ -76,13 +77,123 @@
 	position: absolute;
 	width: 155px; 
 	height: 155px;
-	top: 585px;
+	top: 565px;
 	left: 197px;
 	background-image: url("jessejamespic.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+
+.Bar {
+	position: fixed;
+	width: 100vw; 
+	height: 60px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-top: -100px
+	padding-bottom: 100px;
+	background-color: black;
+	opacity: .7;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.sources {
+	position: fixed;
+	width: 100vw; 
+	height: 80px;
+	left: 0;
+	right: 0;
+	bottom: 3px;
+	margin-top: -100px
+	padding-bottom: 100px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.mainpagepic {
+	position: absolute;
+	width: 150px; 
+	height: 75px;
+	left: 10px;
+	right: 0;
+	top: 15px;
+	background-image: url("mainpage.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.Kpic {
+	position: absolute;
+	width: 35px; 
+	height: 35px;
+	top: 36px;
+	right: 122px;
+	background-image: url("K.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.Wpic {
+	position: absolute;
+	width: 35px; 
+	height: 35px;
+	top: 36px;
+	right: 165px;
+	background-image: url("W.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.Bpic {
+	position: absolute;
+	width: 35px; 
+	height: 35px;
+	top: 36px;
+	right: 80px;
+	background-image: url("B.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.Spic {
+	position: absolute;
+	width: 35px; 
+	height: 35px;
+	top: 36px;
+	right: 43px;
+	background-image: url("S.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.Jpic {
+	position: absolute;
+	width: 35px; 
+	height: 35px;
+	top: 36px;
+	right: 10px;
+	background-image: url("J.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+
+
+
+
+
 
 
 
@@ -132,7 +243,6 @@
 
 
 
-
 .wildtitle1 {
 	position: absolute;
 	left: 25px;
@@ -171,6 +281,22 @@
 	color: black;
 }
 
+.quote1 {
+	position: absolute;
+	left: 35px;
+	right: 35px;
+    top: 1905px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(164,72,36);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
+
 
 
 
@@ -183,7 +309,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 2440px;
+    top: 2630px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Sancreek', cursive;
@@ -194,9 +320,9 @@
 
 .outlawspic {
 	position: absolute;
-	width: 300px; 
-	height: 600px;
-	top: 2400px;
+	width: 230px; 
+	height: 460px;
+	top: 2610px;
 	left: 25px;
 	background-image: url("outlaws.jpg");
 	background-position: center;
@@ -208,7 +334,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 2915px;
+    top: 2990px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Roboto Slab', serif;
@@ -230,7 +356,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 5060px;
+    top: 5120px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Sancreek', cursive;
@@ -243,13 +369,26 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 5090px;
+    top: 5150px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
 	color: black;
+}
+
+.quote2 {
+	position: absolute;
+	left: 35px;
+	right: 35px;
+    top: 5895px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(164,72,36);
+	font-size: 20px;
+	font-weight: 400;
 }
 
 
@@ -265,7 +404,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 6350px;
+    top: 6660px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Sancreek', cursive;
@@ -278,7 +417,7 @@
 	position: absolute;
 	width: 300px; 
 	height: 600px;
-	top: 6210px;
+	top: 6520px;
 	left: 25px;
 	background-image: url("gold.jpg");
 	background-position: center;
@@ -290,7 +429,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 6605px;
+    top: 6910px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Roboto Slab', serif;
@@ -312,7 +451,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 7180px;
+    top: 7495px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Sancreek', cursive;
@@ -320,24 +459,24 @@
 	font-weight: 400;
 	color: black;
 }
-
 .trainpic {
 	position: absolute;
-	width: 400px; 
-	height: 200px;
-	top: 7245px;
-	right: 20px;
+	width: 350px; 
+	height: 175px;
+	top: 7555px;
+	left: 5px;
 	background-image: url("train.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
+
 }
 
 .howwildbodytext6 {
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 7445px;
+    top: 7725px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Roboto Slab', serif;
@@ -346,6 +485,18 @@
 	color: black;
 }
 
+.quote3 {
+	position: absolute;
+	left: 35px;
+	right: 35px;
+    top: 8026px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(164,72,36);
+	font-size: 20px;
+	font-weight: 400;
+}
 
 
 
@@ -363,7 +514,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 8540px;
+    top: 9015px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Sancreek', cursive;
@@ -376,7 +527,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 8570px;
+    top: 9045px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Roboto Slab', serif;
@@ -400,7 +551,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 9530px;
+    top: 10005px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Sancreek', cursive;
@@ -411,9 +562,9 @@
 
 .drawpic {
 	position: absolute;
-	width: 450px; 
-	height: 225px;
-	top: 9590px;
+	width: 420px; 
+	height: 210px;
+	top: 10065px;
 	left: -45px;
 	background-image: url("draw.jpg");
 	background-position: center;
@@ -425,7 +576,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 9810px;
+    top: 10275px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Roboto Slab', serif;
@@ -449,7 +600,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 10635px;
+    top: 11100px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Sancreek', cursive;
@@ -462,13 +613,26 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 10660px;
+    top: 11125px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
 	color: black;
+}
+
+.quote4 {
+	position: absolute;
+	left: 35px;
+	right: 35px;
+    top: 12003px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(164,72,36);
+	font-size: 20px;
+	font-weight: 400;
 }
 
 
@@ -485,7 +649,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 11715px;
+    top: 12315px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Sancreek', cursive;
@@ -498,7 +662,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 11740px;
+    top: 12340px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Roboto Slab', serif;
@@ -522,7 +686,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 12915px;
+    top: 13515px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Sancreek', cursive;
@@ -535,7 +699,7 @@
 	position: absolute;
 	width: 380px; 
 	height: 190px;
-	top: 12975px;
+	top: 13575px;
 	left: -15px;
 	background-image: url("OK.jpg");
 	background-position: center;
@@ -547,7 +711,7 @@
 	position: absolute;
 	left: 25px;
 	right: 25px;
-    top: 13155px;
+    top: 13755px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Roboto Slab', serif;
@@ -555,6 +719,373 @@
 	font-weight: 400;
 	color: black;
 }
+
+.quote5 {
+	position: absolute;
+	left: 35px;
+	right: 35px;
+    top: 14022px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(164,72,36);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article2 {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+    top: 10px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Rye', cursive;
+	font-size: 35px;
+	font-weight: 400;
+	color: black;
+}
+
+.billypic1 {
+	position: absolute;
+	width: 250px; 
+	height: 250px;
+	top: 280px;
+	left: 22px;
+	background-image: url("billyface.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.billybodytext1 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 530px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+.billyposterpic {
+	position: absolute;
+	width: 350px; 
+	height: 350px;
+	top: 720px;
+	left: -37px;
+	background-image: url("billyposter.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.billyquote1 {
+	position: absolute;
+	left: 35px;
+	right: 35px;
+    top: 1335px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(164,72,36);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.billybrushybillpic {
+	position: absolute;
+	width: 250px; 
+	height: 250px;
+	top: 2115px;
+	left: 10px;
+	background-image: url("Brushy_Bill_Roberts.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.billyquote2 {
+	position: absolute;
+	left: 35px;
+	right: 35px;
+    top: 2380px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(164,72,36);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article3 {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+    top: 10px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Rye', cursive;
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
+}
+
+.butchandsundancekidpic {
+	position: absolute;
+	width: 400px; 
+	height: 200px;
+	top: 320px;
+	left: -22px;
+	background-image: url("butchandsundancekid.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.truestorybodytext {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 520px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+.truestoryquote1 {
+	position: absolute;
+	left: 35px;
+	right: 35px;
+    top: 1450px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(164,72,36);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.truestoryquote2 {
+	position: absolute;
+	left: 35px;
+	right: 35px;
+    top: 3148px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(164,72,36);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.butchandsundancekidmugpic {
+	position: absolute;
+	width: 200px; 
+	height: 400px;
+	top: 4990px;
+	left: 22px;
+	background-image: url("butchandsundancekidmug.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article4 {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+    top: 10px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Rye', cursive;
+	font-size: 35px;
+	font-weight: 400;
+	color: black;
+}
+
+.mysteriousbutchandsundancepic {
+	position: absolute;
+	width: 400px; 
+	height: 200px;
+	top: 230px;
+	left: -52px;
+	background-image: url("mysteriousbutchandsundance.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.MysteriousDeathsbodytext1 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 430px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+.mysteriousbutchandsundancepic2 {
+	position: absolute;
+	width: 400px; 
+	height: 200px;
+	top: 1598px;
+	left: -22px;
+	background-image: url("mysteriousbutchandsundance2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.mysteriousdeathquote1 {
+	position: absolute;
+	left: 35px;
+	right: 35px;
+    top: 2605px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(164,72,36);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.article5 {
+	position: absolute;
+	left: 20px;
+	right: 20px;
+    top: 10px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Rye', cursive;
+	font-size: 35px;
+	font-weight: 400;
+	color: black;
+}
+
+.jessefacepic {
+	position: absolute;
+	width: 300px; 
+	height: 300px;
+	top: 230px;
+	left: 22px;
+	background-image: url("jesseface.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.BecomeAnOutlawtext1 {
+	position: absolute;
+	left: 25px;
+	right: 25px;
+    top: 530px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: black;
+}
+
+.jessekidpic {
+	position: absolute;
+	width: 300px; 
+	height: 600px;
+	top: 830px;
+	left: 22px;
+	background-image: url("jessekid.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.BecomeAnOutlawquote {
+	position: absolute;
+	left: 35px;
+	right: 35px;
+    top: 2160px;
+	margin: 15px auto;
+	text-align: left;
+	font-family: 'Roboto Slab', serif;
+	color: rgb(164,72,36);
+	font-size: 20px;
+	font-weight: 400;
+}
+
+
+
 
 
 
