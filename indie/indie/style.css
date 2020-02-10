@@ -206,7 +206,18 @@
 
 
 
-
+.BG1 {
+	width: 100vw;
+	height: 1773vh;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgb(219,219,217);
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	opacity: .3;
+}
 
 .article1 {
 	position: absolute;
@@ -217,7 +228,7 @@
 	font-family: 'Rye', cursive;
 	font-size: 40px;
 	font-weight: 400;
-	color: black;
+	color: rgb(164,72,36);
 }
 
 .howwildbodytext1 {
@@ -230,7 +241,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 
@@ -253,7 +264,7 @@
 	font-family: 'Sancreek', cursive;
 	font-size: 20px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .westland {
@@ -278,7 +289,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .quote1 {
@@ -315,7 +326,7 @@
 	font-family: 'Sancreek', cursive;
 	font-size: 20px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .outlawspic {
@@ -340,7 +351,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 
@@ -362,7 +373,7 @@
 	font-family: 'Sancreek', cursive;
 	font-size: 20px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .howwildbodytext4 {
@@ -375,7 +386,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+    color: rgb(61,32,23);
 }
 
 .quote2 {
@@ -410,7 +421,7 @@
 	font-family: 'Sancreek', cursive;
 	font-size: 20px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .goldpic {
@@ -435,7 +446,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 
@@ -457,7 +468,7 @@
 	font-family: 'Sancreek', cursive;
 	font-size: 20px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 .trainpic {
 	position: absolute;
@@ -482,7 +493,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .quote3 {
@@ -520,7 +531,7 @@
 	font-family: 'Sancreek', cursive;
 	font-size: 20px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .howwildbodytext7 {
@@ -533,7 +544,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 
@@ -557,7 +568,7 @@
 	font-family: 'Sancreek', cursive;
 	font-size: 20px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .drawpic {
@@ -582,7 +593,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 
@@ -606,7 +617,7 @@
 	font-family: 'Sancreek', cursive;
 	font-size: 20px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .howwildbodytext9 {
@@ -619,7 +630,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .quote4 {
@@ -655,7 +666,7 @@
 	font-family: 'Sancreek', cursive;
 	font-size: 20px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .howwildbodytext10 {
@@ -668,7 +679,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 
@@ -692,7 +703,7 @@
 	font-family: 'Sancreek', cursive;
 	font-size: 20px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .okpic {
@@ -717,7 +728,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .quote5 {
@@ -744,26 +755,37 @@
 
 
 
-
+.BG2 {
+	width: 100vw;
+	height: 354vh;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgb(219,219,217);
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	opacity: .3;
+}
 
 .article2 {
 	position: absolute;
-	left: 20px;
-	right: 20px;
+	left: 15px;
+	right: 5px;
     top: 10px;
 	margin: 15px auto;
 	text-align: left;
 	font-family: 'Rye', cursive;
-	font-size: 35px;
+	font-size: 33px;
 	font-weight: 400;
-	color: black;
+	color: rgb(164,72,36);
 }
 
 .billypic1 {
 	position: absolute;
-	width: 250px; 
-	height: 250px;
-	top: 280px;
+	width: 290px; 
+	height: 290px;
+	top: 235px;
 	left: 22px;
 	background-image: url("billyface.png");
 	background-position: center;
@@ -781,7 +803,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .billyposterpic {
@@ -849,7 +871,18 @@
 
 
 
-
+.BG3 {
+	width: 100vw;
+	height: 755vh;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgb(219,219,217);
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	opacity: .3;
+}
 
 .article3 {
 	position: absolute;
@@ -861,7 +894,7 @@
 	font-family: 'Rye', cursive;
 	font-size: 30px;
 	font-weight: 400;
-	color: black;
+	color: rgb(164,72,36);
 }
 
 .butchandsundancekidpic {
@@ -886,7 +919,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .truestoryquote1 {
@@ -943,7 +976,18 @@
 
 
 
-
+.BG4 {
+	width: 100vw;
+	height: 456vh;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgb(219,219,217);
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	opacity: .3;
+}
 
 .article4 {
 	position: absolute;
@@ -955,7 +999,7 @@
 	font-family: 'Rye', cursive;
 	font-size: 35px;
 	font-weight: 400;
-	color: black;
+	color: rgb(164,72,36);
 }
 
 .mysteriousbutchandsundancepic {
@@ -980,7 +1024,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .mysteriousbutchandsundancepic2 {
@@ -1019,7 +1063,18 @@
 
 
 
-
+.BG5 {
+	width: 100vw;
+	height: 401vh;
+	top: 0;
+	left: 0;
+	position: absolute;
+	background-color: rgb(219,219,217);
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	opacity: .3;
+}
 
 .article5 {
 	position: absolute;
@@ -1031,7 +1086,7 @@
 	font-family: 'Rye', cursive;
 	font-size: 35px;
 	font-weight: 400;
-	color: black;
+	color: rgb(164,72,36);
 }
 
 .jessefacepic {
@@ -1056,7 +1111,7 @@
 	font-family: 'Roboto Slab', serif;
 	font-size: 15px;
 	font-weight: 400;
-	color: black;
+	color: rgb(61,32,23);
 }
 
 .jessekidpic {
