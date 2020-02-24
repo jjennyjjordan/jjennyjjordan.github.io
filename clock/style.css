@@ -4,169 +4,71 @@ body {
   background-color: yellow;
 }
 
-.bar {
+.M {
   position: absolute;
-  top: 2vw;
-  width: 100vw;
-  height: 5vw;
-  background-color: black;
-}
-
-.bar2 {
-  position: absolute;
-  bottom: 2vw;
-  width: 100vw;
-  height: 5vw;
-  background-color: black;
-}
-
-.hour {
-  position: absolute;
-  top: 3.5vw;
-  left: 27.5vw;
-  width: 45vw;
-  height: 45vw;
-  background-image: url(sign.png);
+  top: .5vw;
+  left: 26vw;
+  width: 50vw;
+  height: 50vw;
+  background-image: url(molecule.png);
   background-size: contain;
   background-position: center center;  
   background-repeat: no-repeat;
   animation-name: animationA;
-  animation-duration: 1800s;
+  animation-duration: 60s;
   animation-timing-function: linear;
-  animation-iteration-count: infinite;  
+  animation-iteration-count: infinite; 
 }
 
-.minute {
+.button1 {
   position: absolute;
-  top: 10vw;
-  left: 2vw;
+  top: 9vw;
+  left: 36.27vw;
   width: 30vw;
   height: 30vw;
-  background-image: url(boom.png);
+  background-image: url(redbutton.png);
   background-size: contain;
   background-position: center center;  
   background-repeat: no-repeat;
   animation-name: swapImage;
-  animation-duration: 30s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;  
-}
-
-.minute2 {
-  position: absolute;
-  top: 10vw;
-  right: 2vw;
-  width: 30vw;
-  height: 30vw;
-  background-image: url(boom.png);
-  background-size: contain;
-  background-position: center center;  
-  background-repeat: no-repeat;
-  animation-name: swapImage;
-  animation-duration: 30s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;  
-}
-
-.greyminute {
-  position: absolute;
-  top: 10vw;
-  left: 2vw;
-  width: 30vw;
-  height: 30vw;
-  background-image: url(boom2.png);
-  background-size: contain;
-  background-position: center center;  
-  background-repeat: no-repeat;
-  animation-name: swapImage;
-  animation-duration: 30s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;  
-}
-
-.greyminute2 {
-  position: absolute;
-  top: 10vw;
-  right: 2vw;
-  width: 30vw;
-  height: 30vw;
-  background-image: url(boom2.png);
-  background-size: contain;
-  background-position: center center;  
-  background-repeat: no-repeat;
-  animation-name: swapImage;
-  animation-duration: 30s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;  
-}
-
-
-
-
-
-
-
-
-
-.container {
-  margin: auto;
-  width: 100vw;
-  background-color: transparent;
-}
-
-.path {
-  position: relative;
-  overflow: hidden;
-  top: 2vw;
-  width: 100vw;
-  height: 5vw;
-  background-color: transparent;
-  margin: auto;
-}
-.shape {
-  position: absolute;
-  left: 0;
-  /*display: block;*/
-  top: -2.7vw;
-  width: 35vw;
-  height: 20vh;
-  background-image: url(warningR.png);
-  background-size: contain;
-  background-position: center center;  
-  background-repeat: no-repeat;
-
-  
-  x-transition: all 1s ease-in-out;
-  animation: ani 1.7s infinite;
-}
-
-
-@keyframes ani {
-  0% {
-    left: 0;
-  }
-  50% {
-    left: 65vw;
-  }
-  100% {
-    left: 0;
-  }
-}
-
-/*.second {
-  position: absolute;
-  top: 10vw;
-  left: 70vw;
-  width: 20vw;
-  height: 20vw;
-  background-color: white;
-  animation-name: animationA;
-  animation-duration: .5s;
+  animation-duration: 2s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-}*/
+}
 
-@keyframes animationA {
+.button2 {
+  position: absolute;
+  top: 9vw;
+  left: 36.27vw;
+  width: 30vw;
+  height: 30vw;
+  background-image: url(blackbutton.png);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;
+  animation-name: swapImage;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.H {
+  position: absolute;
+  top: 11.5vw;
+  left: 37.5vw;
+  width: 27vw;
+  height: 27vw;
+  background-image: url(rocket.png);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;
+  animation-name: animationB;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; 
+}
+
+  @keyframes animationA {
   0% {
     transform: rotate(0deg);
   }
@@ -175,36 +77,45 @@ body {
   }
 }
 
+  @keyframes animationB {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
 @keyframes swapImage {
   0% {
-    background-image: url(boom.png);
+    background-image: url(redbutton.png);
   }
   12% {
-    background-image: url(boom2.png);
+    background-image: url(blackbutton.png);
   }
   24% {
-    background-image: url(boom.png);
+    background-image: url(redbutton.png);
   }  
   36% {
-    background-image: url(boom2.png);
+    background-image: url(blackbutton.png);
   }  
   48% {
-    background-image: url(boom.png);
+    background-image: url(redbutton.png);
   }  
   60% {
-    background-image: url(boom2.png);
+    background-image: url(blackbutton.png);
   }
   72% {
-    background-image: url(boom.png);
+    background-image: url(redbutton.png);
   }
   84% {
-    background-image: url(boom2.png);
+    background-image: url(blackbutton.png);
   }  
   94% {
-    background-image: url(boom.png);
+    background-image: url(redbutton.png);
   }  
   100% {
-    background-image: url(boom2.png);
+    background-image: url(blackbutton.png);
   }  
     
 }
