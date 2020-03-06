@@ -3,6 +3,6 @@ $(document).ready(function(){
   setTimeout(function() {
     $(".message").addClass("alarm");
     $(".normal").addClass("alarm");
-  }, 300000);
+  }, 6000);
 
 });
