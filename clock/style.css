@@ -1,7 +1,7 @@
 body { 
   margin: 0;
   padding: 0;
-  background-color: yellow;
+  background-color: rgb(255,240,0);
 }
 
 
@@ -11,7 +11,7 @@ body {
   left: 26vw;
   width: 50vw;
   height: 50vw;
-  background-image: url(molecule.png);
+  background-image: url(molecule.gif);
   background-size: contain;
   background-position: center center;  
   background-repeat: no-repeat;
@@ -21,9 +21,7 @@ body {
   animation-iteration-count: infinite; 
 }
 
-.M.alarm {
-	display:block;
-}
+
 
 .button1 {
   position: absolute;
@@ -41,9 +39,6 @@ body {
   animation-iteration-count: infinite;
 }
 
-.button1.alarm {
-	display:block;
-}
 
 .button2 {
   position: absolute;
@@ -61,9 +56,6 @@ body {
   animation-iteration-count: infinite;
 }
 
-.button2.alarm {
-	display:block;
-}
 
 .H {
   position: absolute;
@@ -81,9 +73,6 @@ body {
   animation-iteration-count: infinite; 
 }
 
-.H.alarm {
-	display:block;
-}
 
 
 
@@ -139,6 +128,9 @@ body {
     
 }
 
+.normal.alarm {
+	display: none;
+}
 
 
 
@@ -150,42 +142,60 @@ body {
 
 
 
-
-
+.button {
+  position: absolute;
+  top: 17vw;
+  left: 25vw;
+  width: 50vw;
+  height: 16.7vw;
+  background-image: url(evacuate.png);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat; 
+}
 
 
 .bar {
   position: absolute;
-  top: 2vw;
+  top: 3vw;
   width: 100vw;
-  height: 5vw;
+  height: 7vw;
   background-color: black;
 }
 
 .bar2 {
   position: absolute;
-  bottom: 2vw;
+  bottom: 3vw;
   width: 100vw;
-  height: 5vw;
+  height: 7vw;
   background-color: black;
 }
 
 .hour {
   position: absolute;
-  top: 3.5vw;
-  left: 27.5vw;
-  width: 45vw;
-  height: 45vw;
+  top: 10vw;
+  left: -2.5vw;
+  width: 30vw;
+  height: 30vw;
   background-image: url(sign.png);
   background-size: contain;
   background-position: center center;  
-  background-repeat: no-repeat;
-  animation-duration: 1800s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;  
+  background-repeat: no-repeat; 
 }
 
-.minute {
+.hour2 {
+  position: absolute;
+  top: 10vw;
+  right: -2.5vw;
+  width: 30vw;
+  height: 30vw;
+  background-image: url(sign.png);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat; 
+}
+
+/*.minute {
   position: absolute;
   top: 10vw;
   left: 2vw;
@@ -247,7 +257,7 @@ body {
   animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;  
-}
+}*/
 
 
 
@@ -259,16 +269,18 @@ body {
 
 .container {
   margin: auto;
+  top: 2vw
   width: 100vw;
+  height: 7vw;
   background-color: transparent;
 }
 
 .path {
   position: relative;
   overflow: hidden;
-  top: 2vw;
+  top: 2.5vw;
   width: 100vw;
-  height: 5vw;
+  height: 7vw;
   background-color: transparent;
   margin: auto;
 }
@@ -276,9 +288,9 @@ body {
   position: absolute;
   left: 0;
   display: block;
-  top: -2.7vw;
-  width: 35vw;
-  height: 20vh;
+  top: -1.7vw;
+  width: 40vw;
+  height: 23vh;
   background-image: url(warningR.png);
   background-size: contain;
   background-position: center center;  
@@ -288,6 +300,47 @@ body {
   x-transition: all 1s ease-in-out;
   animation: ani 1.7s infinite;
 }
+
+
+
+
+
+.container2 {
+  margin: auto;
+  top: 55vw
+  width: 100vw;
+  height: 7vw;
+  background-color: transparent;
+}
+
+.path2 {
+  position: relative;
+  overflow: hidden;
+  top: 34vw;
+  width: 100vw;
+  height: 7vw;
+  background-color: transparent;
+  margin: auto;
+}
+.shape2 {
+  position: absolute;
+  left: 0;
+  display: block;
+  top: -2.3vw;
+  width: 40vw;
+  height: 23vh;
+  background-image: url(warningR.png);
+  background-size: contain;
+  background-position: center center;  
+  background-repeat: no-repeat;
+
+  
+  x-transition: all 1s ease-in-out;
+  animation: anima 1.7s infinite;
+}
+
+
+
 
 
 @keyframes ani {
@@ -302,20 +355,33 @@ body {
   }
 }
 
-.second {
-  position: absolute;
-  top: 10vw;
-  left: 70vw;
-  width: 20vw;
-  height: 20vw;
-  background-color: white;
-  animation-name: animation;
-  animation-duration: .5s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+
+@keyframes anima {
+  100% {
+    left: 65vw;
+  }
+  50% {
+    left: 0;
+  }
+  0% {
+    left: 65vw;
+  }
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 @keyframes swapImageB {
   0% {
     background-image: url(boom.png);
@@ -348,4 +414,12 @@ body {
     background-image: url(boom2.png);
   }  
     
+}*/
+
+.message {
+	display: none;
+}
+
+.message.alarm {
+	display: block;
 }

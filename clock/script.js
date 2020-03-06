@@ -1,13 +1,8 @@
 $(document).ready(function(){
-  
+  $("audio")[0].play();
   setTimeout(function() {
-    $(".M").addClass("alarm");
-  }, 3000);
-  $(".button1").addClass("alarm");
-  }, 3000);
-  $(".button2").addClass("alarm");
-  }, 3000);
-  $(".H").addClass("alarm");
-  }, 3000);
+    $(".message").addClass("alarm");
+    $(".normal").addClass("alarm");
+  }, 300000);
 
 });
