@@ -152,6 +152,12 @@ body {
   background-size: contain;
   background-position: center center;  
   background-repeat: no-repeat; 
+  transform: scale(1);
+  transition: transform .5s;
+}
+
+.button:hover {
+  transform: scale(1.1);
 }
 
 
@@ -174,7 +180,7 @@ body {
 .hour {
   position: absolute;
   top: 10vw;
-  left: -2.5vw;
+  left: -3.5vw;
   width: 30vw;
   height: 30vw;
   background-image: url(sign.png);
@@ -186,7 +192,7 @@ body {
 .hour2 {
   position: absolute;
   top: 10vw;
-  right: -2.5vw;
+  right: -3.5vw;
   width: 30vw;
   height: 30vw;
   background-image: url(sign.png);
