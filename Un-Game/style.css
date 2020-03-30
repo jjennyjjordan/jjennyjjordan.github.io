@@ -117,15 +117,15 @@ body {
   bottom: 700px;
   background-image: url("./img/npc-sprite.png");
   background-size: cover;
-  animation-name: spriteSheet;
-  animation-duration: 800ms;
+  animation-name: spriteSheetZ;
+  animation-duration: 900ms;
   animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
   animation-iteration-count: infinite;  
   pointer-events: none;
-  animation-name: MoveUpDown;
+  /*animation-name: MoveUpDown;
   animation-duration: 1200ms;
   animation-iteration-count: infinite; 
-  animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;*/
 }
 
 .monster.was-hit {
@@ -150,8 +150,20 @@ body {
   }
 }
 
-@keyframes MoveUpDown {
+@keyframes spriteSheetZ {
+  0% {
+    background-position: 0% center;
+  }
+  100% {
+    background-position: 100% center;
+  }
+  from { transform: translate(0, 200px); }
+  65%  { transform: translate(0, 300px); }
+  to   { transform: translate(0, 200px); }
+}
+
+/*@keyframes MoveUpDown {
 	from { transform: translate(0, 200px); }
 	65%  { transform: translate(0, 300px); }
 	to   { transform: translate(0, 200px); }
-}
+}*/
